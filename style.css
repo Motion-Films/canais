@@ -1,6 +1,6 @@
 @font-face {
     font-family: "The Seasons";
-    src: url("./fonts/The-Seasons-bold.woff2") format("truetype");
+    src: url("./fonts/The-Seasons-bold.woff2") format("woff2");
     font-weight: 400;
 }
 
