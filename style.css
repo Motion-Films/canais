@@ -1,0 +1,99 @@
+@font-face {
+    font-family: "The Seasons";
+    src: url("./fonts/The-Seasons-bold.woff2") format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("./fonts/Montserrat.ttf") format("truetype");
+    font-weight: 400;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #151515;
+}
+
+#cabecalho {
+    width: 100%;
+    background-image: linear-gradient(180deg, #573333 80%, transparent 100%);
+    color: #FFF;
+    padding: 20px;
+    font-size: 0.9em;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#fundo {
+    width: 100%;
+    height: calc(15vh + 130px);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    border-bottom: 1px solid #d5d5d5;
+}
+
+#fundo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+#principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 130px 20px;
+    min-height: 85vh;
+    position: relative;
+}
+
+#principal #foto-perfil {
+    width: 30vh;
+    border-radius: 50%;
+    box-shadow: 0 0 15px #573333;
+    border: 1px solid #b8b8b8;
+}
+
+#principal a {
+    background-color: #573333;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 0.9em;
+    padding: 10px 30px;
+    display: block;
+    text-decoration: none;
+    border: solid 1px #ffffff;
+    transition: all .5s;
+}
+
+#principal a:hover {
+    background-color: #ffffff;
+    color: #573333;
+    border: solid 1px #573333;
+}
+
+#rodape {
+    padding: 10px;
+}
+
+#rodape p {
+    text-align: center;
+    color: #a0a0a0;
+}
+
+#text-title {
+    text-align: center;
+    font-family: "The Seasons";
+}
